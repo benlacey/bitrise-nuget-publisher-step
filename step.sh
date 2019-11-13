@@ -40,7 +40,7 @@ echo ""
 
 if [ ! -f "./nuget.exe" ]; then
   echo "Installing latest nuget.exe..."
-  curl -O -L https://nuget.org/nuget.exe
+  curl -O -L https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 fi
 
 nuget="mono ./nuget.exe"
