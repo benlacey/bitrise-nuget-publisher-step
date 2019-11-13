@@ -38,10 +38,24 @@ inputs:
       is_expand: true
       is_required: false
       value_options: []
+  - nuspec_excludepattern: 
+    opts:
+      title: "Pattern matching nupkg files to exclude from packaging"
+      summary: Regex pattern for which nupkg files should not be packaged.
+      is_expand: true
+      is_required: false
+      value_options: []
   - nupkg_pattern: 
     opts:
       title: "Pattern matching nupkg files to push"
       summary: Regex pattern for which nupkg files should be pushed.
+      is_expand: true
+      is_required: false
+      value_options: []
+  - nupkg_excludepattern: 
+    opts:
+      title: "Pattern matching nupkg files to exclude from pushing"
+      summary: Regex pattern for which nupkg files should not be pushed.
       is_expand: true
       is_required: false
       value_options: []
